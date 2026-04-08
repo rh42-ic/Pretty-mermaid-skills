@@ -443,7 +443,7 @@ cd /path/to/pretty-mermaid-skill && npm install
 Error: Parse error on line 3
 ```
 **Solution:**
-1. Validate syntax against [DIAGRAM_TYPES.md](references/DIAGRAM_TYPES.md)
+1. Validate syntax against the specific type reference in [references/types/](references/types/)
 2. Test on https://mermaid.live/
 3. Check for common errors:
    - Missing spaces in `A --> B`
@@ -470,6 +470,9 @@ Executable Node.js scripts for rendering operations:
 Documentation to inform diagram creation:
 - Detailed syntax guides for all 20+ supported diagram types
 - Examples and best practices for each format
+
+### references/BEST_PRACTICES.md
+- General best practices for Theming, Performance, Accessibility, and File Organization.
 
 ### assets/
 Template files for quick diagram creation:
